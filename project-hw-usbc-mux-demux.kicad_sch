@@ -5,6 +5,74 @@
 	(uuid "a3c0ab3f-ca32-4edb-a5c1-d200028ec7dc")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 38.735 38.1)
+		(size 14.605 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5c239f7-156e-4f36-ad6b-933be28e9b2d")
+		(property "Sheetname" "Buck Converter"
+			(at 38.735 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_converter.kicad_sch"
+			(at 38.735 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" output
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eea0f5db-7da7-42f5-977c-3cd4f26f4004")
+		)
+		(pin "Vin" input
+			(at 38.735 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e96b5ff-c593-408a-9b8c-6cb3840756d9")
+		)
+		(pin "GND" input
+			(at 38.735 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d7d4fc0-ee26-4d4a-bcde-2a9d2119f92b")
+		)
+		(instances
+			(project "project-hw-usbc-mux-demux"
+				(path "/a3c0ab3f-ca32-4edb-a5c1-d200028ec7dc"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

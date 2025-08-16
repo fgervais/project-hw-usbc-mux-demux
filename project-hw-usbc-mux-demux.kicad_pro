@@ -578,6 +578,10 @@
     [
       "a3c0ab3f-ca32-4edb-a5c1-d200028ec7dc",
       "Root"
+    ],
+    [
+      "c5c239f7-156e-4f36-ad6b-933be28e9b2d",
+      "Buck Converter"
     ]
   ],
   "text_variables": {}
