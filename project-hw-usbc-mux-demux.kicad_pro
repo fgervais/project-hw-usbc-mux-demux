@@ -582,6 +582,10 @@
     [
       "c5c239f7-156e-4f36-ad6b-933be28e9b2d",
       "Buck Converter"
+    ],
+    [
+      "4e455b7c-bdd8-4869-96e6-828b850a961d",
+      "Load Switch"
     ]
   ],
   "text_variables": {}
