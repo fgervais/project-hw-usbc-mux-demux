@@ -2896,7 +2896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB-C:Amphenol_12402012E212A"
 			(at 240.03 119.38 0)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB-C:Amphenol_12402012E212A"
 			(at 39.37 43.18 0)
 			(effects
 				(font
@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB-C:Amphenol_12402012E212A"
 			(at 240.03 43.18 0)
 			(effects
 				(font
