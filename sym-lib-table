@@ -4,4 +4,5 @@
   (lib (name "onsemi_FUSB303BTMX")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Interface_USB/onsemi_FUSB303BTMX.kicad_sym")(options "")(descr ""))
   (lib (name "Toshiba_SSM3J328R")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/MOSFET/Toshiba_SSM3J328R.kicad_sym")(options "")(descr ""))
   (lib (name "Amphenol_12402012E212A")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Connector_USB-C/Amphenol_12402012E212A.kicad_sym")(options "")(descr ""))
+  (lib (name "2060-452_998-404")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/WAGO_2060-452-998-404/2060-452_998-404.kicad_sym")(options "")(descr ""))
 )
