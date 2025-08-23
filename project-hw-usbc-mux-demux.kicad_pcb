@@ -5963,7 +5963,7 @@
 			(uuid "554799c3-30ec-4597-b68f-c1f35574d32e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "fbb15f48-7fee-44db-9b2e-36a5508ec747")
 			(effects
@@ -6018,6 +6018,7 @@
 			(uuid "61d97f19-e54b-4cbd-97c2-44148c34a5fd")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
