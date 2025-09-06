@@ -194,7 +194,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at 3.5 0 90)
 			(layer "F.Fab")
 			(uuid "fc04ee1b-0829-4a65-b522-bac6fd223f63")
 			(effects
@@ -622,7 +622,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at -3 0 90)
 			(layer "F.Fab")
 			(uuid "9cbf6e9a-e70f-426d-b734-f7cd1aee912f")
 			(effects
@@ -835,8 +835,8 @@
 				)
 			)
 		)
-		(property "Value" "Q_Toshiba_SSM3J328R"
-			(at 0 3 90)
+		(property "Value" "SSM3J328R"
+			(at 2 -2 0)
 			(layer "F.Fab")
 			(uuid "23cd4f79-1469-47e2-ae4c-044ae6220aa9")
 			(effects
@@ -1088,7 +1088,7 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120 12402012E212A")
 		(property "Reference" "J1"
-			(at 0 -6 270)
+			(at 0 -6 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1101,7 +1101,7 @@
 			)
 		)
 		(property "Value" "Amphenol_12402012E212A"
-			(at 0 5 -90)
+			(at -7 -6 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5e199b9a-d671-47e6-834b-721d0e7a4c1a")
@@ -1497,8 +1497,9 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 0 1.43 90)
+			(at 0 1.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e88e8850-0567-499f-b163-2784a9e472dc")
 			(effects
 				(font
@@ -1733,7 +1734,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 90)
+			(at -0.5 -1.5 90)
 			(layer "F.Fab")
 			(uuid "4e814ce3-3587-475b-8a1e-74117e5d5556")
 			(effects
@@ -1946,9 +1947,10 @@
 				)
 			)
 		)
-		(property "Value" "Q_Toshiba_SSM3J328R"
-			(at 0 3 90)
+		(property "Value" "SSM3J328R"
+			(at -6.5 -1 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "609d789d-d6fe-4b46-891d-03acab9b6621")
 			(effects
 				(font
@@ -2211,7 +2213,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at 0.5 1.43 90)
 			(layer "F.Fab")
 			(uuid "5c68346a-d318-4096-a84a-a86240359ab0")
 			(effects
@@ -2429,6 +2431,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "30e91458-41a6-4787-961e-98254fa5c1c5")
 			(effects
 				(font
@@ -2822,7 +2825,7 @@
 			)
 		)
 		(property "Value" "22uF 16V"
-			(at 0 2.3 90)
+			(at 3 -2 180)
 			(layer "F.Fab")
 			(uuid "b94b33e5-0076-4633-b737-e473bfb1a861")
 			(effects
@@ -3036,7 +3039,7 @@
 			)
 		)
 		(property "Value" "52.3k"
-			(at 0 1.43 90)
+			(at -3.5 0 90)
 			(layer "F.Fab")
 			(uuid "b836bb91-8a66-474a-8535-daad47a06c29")
 			(effects
@@ -3250,7 +3253,7 @@
 			)
 		)
 		(property "Value" "5.1V"
-			(at 0 2 0)
+			(at 3.5 0 0)
 			(layer "F.Fab")
 			(uuid "3993c4f3-54ec-47dd-bf64-5c1d9e0bfcec")
 			(effects
@@ -3475,8 +3478,9 @@
 			(uuid "3551467a-c259-41fa-af79-bff387231f70")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at -0.5 -1.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "875a20e1-7702-486b-8753-bb43d06fa41c")
 			(effects
 				(font
@@ -4034,7 +4038,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at 3 0 90)
 			(layer "F.Fab")
 			(uuid "c1a866b4-9ab0-4a30-af22-4b87688fd308")
 			(effects
@@ -4236,7 +4240,7 @@
 		(descr "Texas  X2QFN, 12 Pin (http://www.ti.com/lit/ml/mpqf391c/mpqf391c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Texas X2QFN NoLead")
 		(property "Reference" "U2"
-			(at 0 -3 360)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4863e450-b3fc-415a-9cd4-758be2995316")
@@ -4248,7 +4252,7 @@
 			)
 		)
 		(property "Value" "FUSB303BTMX"
-			(at 0 3 360)
+			(at 1.5 -2.5 0)
 			(layer "F.Fab")
 			(uuid "95f04d9b-fefa-4dee-9f06-f820c40842ca")
 			(effects
@@ -4259,7 +4263,7 @@
 			)
 		)
 		(property "Footprint" "QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7169fe6-6449-4e57-9356-bb0b5bc42818")
@@ -4271,7 +4275,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fusb303b-d.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2ff20fe-b2d2-441e-8939-db55fc2d6205")
@@ -4283,7 +4287,7 @@
 			)
 		)
 		(property "Description" "USB Type-C port controller with I2C and GPIO control, X2QFN-12"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b0646c5-cfaa-47f4-bb21-19d94f342112")
@@ -4442,7 +4446,7 @@
 			(uuid "10bbbfbf-9264-40eb-9f21-a396ad3f84c1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "38cd015b-4ade-43a9-b50b-a0bb804b6b0a")
 			(effects
@@ -4605,6 +4609,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.55 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4407ca25-f5d8-4299-b29a-b0b10945cc0a")
 			(effects
 				(font
@@ -4719,7 +4724,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at 0 -1.5 90)
 			(layer "F.Fab")
 			(uuid "4188e43d-560c-48f7-8c4c-7f9b0f1abef6")
 			(effects
@@ -4933,8 +4938,9 @@
 			)
 		)
 		(property "Value" "22uF 16V"
-			(at 0 2.3 90)
+			(at 0 -2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "718e89fb-f859-4129-ac76-f6567740f752")
 			(effects
 				(font
@@ -5147,7 +5153,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 0)
+			(at 3.5 0 0)
 			(layer "F.Fab")
 			(uuid "ae926ee5-4987-4801-b28b-ccc938286168")
 			(effects
@@ -5365,6 +5371,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "50149b50-fe8b-4a20-8609-075ae24e81db")
 			(effects
 				(font
@@ -5760,6 +5767,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 0 9.95 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b031921a-e8e3-49f0-9ec0-d1c5617a95b3")
 			(effects
 				(font
@@ -6049,7 +6057,7 @@
 			)
 		)
 		(property "Value" "LMR516x5"
-			(at 0 3 0)
+			(at -5.5 -2.5 90)
 			(layer "F.Fab")
 			(uuid "36a259c6-d365-4f7b-bfb8-855d6a2184a0")
 			(effects
@@ -6345,7 +6353,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 0 4 0)
+			(at 0 -4 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a732579b-7f40-4bef-a63f-51a33b19a2bd")
@@ -9647,7 +9655,7 @@
 		)
 		(polygon
 			(pts
-				(xy 38 43.5) (xy 39.5 43.5) (xy 39.5 43.5) (xy 43.5 43.5) (xy 43.5 36) (xy 38 36)
+				(xy 38 43.5) (xy 39.5 43.5) (xy 43.5 43.5) (xy 43.5 36) (xy 38 36)
 			)
 		)
 		(filled_polygon
