@@ -29,6 +29,8 @@ Here's an illustration highlighting a couple use-cases:
 
 ### Output (5V)
 
+![Overview](assets/img/output.jpg)
+
 | Input Voltage | No Load | 50 mA | 500 mA | 1 A |
 |---------------|---------|-------|--------|-----|
 | 10V           | ![Waveform](assets/img/output_10V/DS2_QuickPrint103.png) | ![Waveform](assets/img/output_10V/DS2_QuickPrint104.png) | ![Waveform](assets/img/output_10V/DS2_QuickPrint105.png) | ![Waveform](assets/img/output_10V/DS2_QuickPrint106.png) |
